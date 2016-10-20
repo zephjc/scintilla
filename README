@@ -81,3 +81,7 @@ To build Scintilla, run xcodebuild in the scintilla/cocoa/ScintillaFramework dir
 *** Qt version ***
 
 See the qt/README file to build Scintilla with Qt.
+
+*** Haiku version ***
+
+See the haiku/README file to build Scintilla with Haiku OS.
