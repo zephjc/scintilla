@@ -1,0 +1,19 @@
+README for building Scintilla for Haiku
+
+Create directory named haiku in main directory of Scintilla and copy all files
+there.
+
+Now you can use the makefile provided. Compiled library will be in ../bin.
+Make sure you are using GCC4, it will not compile with GCC2.
+
+There is no SciTE port available.
+
+The port is still missing a few things:
+- Idler implementation
+- Custom icons support
+
+IME support:
+You can set your own colors for clauses and selection, customize styles
+253 and 254, respectively.
+
+This revision is compatible with Scintilla 3.6.5.
