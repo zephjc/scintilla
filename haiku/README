@@ -1,9 +1,7 @@
 README for building Scintilla for Haiku
 
-Create directory named haiku in main directory of Scintilla and copy all files
-there.
-
-Now you can use the makefile provided. Compiled library will be in ../bin.
+Run make to build.
+Compiled library will be in ../bin.
 Make sure you are using GCC4, it will not compile with GCC2.
 
 There is no SciTE port available.
